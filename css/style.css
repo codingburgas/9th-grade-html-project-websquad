@@ -17,7 +17,11 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #e9e9e9;
+  background-color: #ca3024;
+  align-self: flex-start;
+  width: 100%;
+  height: 50px;
+  position: fixed;
 }
 
 .topnav a {
@@ -31,12 +35,12 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #c22013;
   color: black;
 }
 
 .topnav a.active {
-  background-color: red;
+  background-color: #c22013;
   color: white;
 }
 
@@ -115,3 +119,25 @@ button:hover {
   font-size: 14px;
   margin-top: 10px;
 }
+
+.profile{
+    margin-left: 1565px;
+    margin-top: -9px;
+}
+
+.back-link {
+  color: white;
+  text-decoration: underline;
+  border: #c22013 10px solid;
+  background-color: #c22013;
+  border-radius: 7px;
+  font-weight: bold;
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+}
+
+.back-link:hover {
+  color: #c22013;
+}
+
