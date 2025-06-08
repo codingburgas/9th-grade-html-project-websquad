@@ -220,4 +220,20 @@ button:hover {
     margin-left: 76%;
     margin-top: -9px;
 }
+.centered-wrapper {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+}
 
+.red-box {
+  background-color: red;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 25px;
+  max-width: 800px;
+  font-size: 18px;
+  line-height: 1.6;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
