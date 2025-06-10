@@ -5,7 +5,10 @@ h1{
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  height: 1100px;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -236,4 +239,22 @@ button:hover {
   font-size: 18px;
   line-height: 1.6;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.backgroundVideo{
+  height: 2000px
+}
+
+select{
+  border:none;
+  padding: 10px 20px;
+  border-radius:5px;
+}
+
+select:focus{
+  outline:none;
+}
+
+label{
+  margin-left: 50px;
 }
