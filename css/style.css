@@ -296,3 +296,8 @@ html, body {
     font-weight: bold;
     z-index: 1;
   }
+  .news-item{
+    background-color: orange;
+  color: white;
+ 
+  }
